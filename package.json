@@ -1,0 +1,24 @@
+{
+  "name": "anyjobby-chat",
+  "version": "1.0.0",
+  "description": "Realtime messaging for anyjobby",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Radder",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "dotenv": "^5.0.1",
+    "express": "^4.15.4",
+    "forever": "^0.15.3",
+    "mysql": "^2.14.1",
+    "request": "^2.82.0",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
